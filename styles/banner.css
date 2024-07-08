@@ -146,3 +146,50 @@ button{
     font-size: 20px;
     margin-top: 46px;
 }
+/* offer styles */
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 463px;
+    gap: 70px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.offer{
+    max-width: 393px;
+}
+.offer-subtitle{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family:  "Merriweather", serif;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.offer-description{
+    color: #070211;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.image{
+    border: 10px solid red;
+    padding: 30px;
+    border-radius: 50%;
+}
+.offer-info-title{
+    color: red;
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer-info-description{
+    font-size: 20px;
+    color: #070211;
+    opacity: 0.6;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
