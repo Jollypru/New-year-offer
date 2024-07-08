@@ -137,7 +137,7 @@ main{
     font-size: 32px;
     font-weight: 600;
 }
-button{
+.btn{
     padding: 16px 32px;
     background-color: red;
     border: none;
@@ -145,6 +145,7 @@ button{
     color: white;
     font-size: 20px;
     margin-top: 46px;
+    cursor: pointer;
 }
 /* offer styles */
 .offer-container{
@@ -233,13 +234,15 @@ button{
     background-image: url(../assets/images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    width: 200px;
-    height: 300px;
+}
+.sale-image .box{
+    overlay:auto;
 }
 /* portfolio styles */
 .portfolio{
     height: 1163px;
     font-family: "Inter", sans-serif;
+    margin-bottom: 130px;
 }
 .portfolio-content{
     width: 896px;
@@ -267,4 +270,120 @@ button{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
+}
+/* subscription section styles */
+.subscription{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    margin: 80px 212px 22px 212px;
+}
+.content h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: 40px;
+    
+}
+.content p{
+    font-size: 20px;
+    font-family: "Inter", serif;
+    color: #070211;
+    opacity: 0.6;
+    margin-top: 22px;
+}
+.subscribe-bar{
+    width: 648px;
+    height: 72px;
+    background: white;
+    display: flex;
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    margin-top: 48px;
+}
+.subscribe-bar input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.3;
+    color: #070211;
+    margin-left: 30px;
+}
+.subscribe-bar button{
+    background: red;
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+/* footer styles */
+footer{
+    height: 609px;
+    background: black;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* align-items: center; */
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 116px;
+    margin-bottom: 50px;
+    height: 40%;
+    line-height: 40px;
+}
+.top > p > img{
+    margin-right: 16px;
+}
+hr{
+    color: white;
+    width: 85%;
+    opacity: 0.15;
+}
+.middle{
+    height: 25%;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.bottom{
+    height: 35%;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.bottom button{
+    background: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 125px;
+    cursor: pointer;
 }
