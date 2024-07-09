@@ -199,6 +199,13 @@ main{
 .sale-container{
     height: 986px;
     font-family: "Inter", sans-serif;
+    margin-bottom: 130px;
+    position: relative;
+    /* border: 2px solid red; */
+    background-image: url(../assets/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
 }
 .sale-info{
     /* display: flex;
@@ -229,15 +236,16 @@ main{
     font-weight: 500;
     margin-bottom: 70px;
 }
-.sale-image{
-    display: flex;
-    background-image: url(../assets/images/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+/* .giftbox{
+    position: absolute;
+} */
+.circle{
+    position: absolute ;
+    left: 900px;
+    right: -99.69px;
+    top: 400px;
 }
-.sale-image .box{
-    overlay:auto;
-}
+
 /* portfolio styles */
 .portfolio{
     height: 1163px;
